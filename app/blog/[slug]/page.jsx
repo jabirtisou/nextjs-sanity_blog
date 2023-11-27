@@ -81,6 +81,20 @@ export default async function page({ params: { slug } }) {
 
   return (
     <div>
+      <div className="navbar_component w-nav">
+        <div className="navbar_container flex justify-start">
+          <a
+            href="/"
+            aria-current="page"
+            className="navbar_link w-nav-link text-weight-bold"
+          >
+            CMD Amsterdam
+          </a>
+          <a href="/" aria-current="page" className="navbar_link w-nav-link">
+            Nieuws
+          </a>
+        </div>
+      </div>
       <header className="section_blog-post-header">
         <div className="padding-global">
           <div className="container-large">
@@ -261,23 +275,16 @@ export default async function page({ params: { slug } }) {
                 <div className="blog-post-content_newsletter">
                   <div className="margin-bottom margin-xsmall">
                     <div className="heading-style-h6">
-                      Subscribe to newsletter
+                      Abonneren op nieuwsbrief
                     </div>
                   </div>
                   <div className="margin-bottom margin-xsmall">
                     <p>
-                      Subscribe to receive the latest blog posts to your inbox
-                      every week.
+                    Abonneer om elke week de nieuwste blogberichten in je inbox te ontvangen.
                     </p>
                   </div>
                   <div className="blog-post-content_form w-form">
                     <form
-                      id="email-form"
-                      name="email-form"
-                      data-name="Email Form"
-                      method="get"
-                      data-wf-page-id="655b65a99efc26202390a5c0"
-                      data-wf-element-id="db86c58d-5d72-64b1-95f1-597e0510189d"
                     >
                       <div className="blog-post-content_form-wrapper">
                         <input
@@ -297,21 +304,7 @@ export default async function page({ params: { slug } }) {
                           className="button is-small w-button"
                         />
                       </div>
-                      <div className="text-size-tiny">
-                        By subscribing you agree to with our
-                        <Link href="#">
-                          <span>Privacy Policy.</span>
-                        </Link>
-                      </div>
                     </form>
-                    <div className="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div className="w-form-fail">
-                      <div>
-                        Oops! Something went wrong while submitting the form.
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
