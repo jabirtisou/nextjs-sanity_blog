@@ -3344,3 +3344,7 @@ textarea.w-select {
 .text-weight-bold{
   font-weight: bold;
 }
+
+.blog-post-content_content ul{
+  list-style: initial;
+}

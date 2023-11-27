@@ -158,21 +158,6 @@ export default async function page({ params: { slug } }) {
                       {postData.author.name}
                     </div>
                   </div>
-                  <div className="margin-right margin-small">
-                    <div className="margin-bottom margin-xxsmall">
-                      <div>Published on</div>
-                    </div>
-                    <div className="text-weight-medium">
-                      {new Date(postData._createdAt).toLocaleDateString(
-                        "en-US",
-                        {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        }
-                      )}
-                    </div>
-                  </div>
                 </div>
                 <div className="w-layout-grid blog-post-header_share">
                   <Link
@@ -331,7 +316,7 @@ export default async function page({ params: { slug } }) {
                       </div>
                     </div>
                     <div className="blog-post-related_button-row hide-mobile-landscape">
-                      <Link href="#" className="button is-secondary w-button">
+                      <Link href="/" className="button is-secondary w-button">
                         View all
                       </Link>
                     </div>
