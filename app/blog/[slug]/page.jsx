@@ -122,7 +122,7 @@ export default async function page({ params: { slug } }) {
                             ></path>
                           </svg>
                         </div>
-                        <Link href="/">All Posts</Link>
+                        <Link href="/">Alle nieuws</Link>
                       </Link>
                     </div>
                     <div className="blog-post-header_meta-wrapper">
@@ -152,7 +152,7 @@ export default async function page({ params: { slug } }) {
                 <div className="blog-post-header_author-wrapper">
                   <div className="margin-right margin-large">
                     <div className="margin-bottom margin-xxsmall">
-                      <div>Written by</div>
+                      <div>Geschreven door</div>
                     </div>
                     <div className="text-weight-medium">
                       {postData.author.name}
@@ -307,7 +307,7 @@ export default async function page({ params: { slug } }) {
                     <div className="blog-post-related_heading">
                       <div className="max-width-large">
                         <div className="margin-bottom margin-xsmall">
-                          <h2>Related posts</h2>
+                          <h2>Gerelateerde nieuwsartikelen</h2>
                         </div>
                         <p className="text-size-medium">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -317,7 +317,7 @@ export default async function page({ params: { slug } }) {
                     </div>
                     <div className="blog-post-related_button-row hide-mobile-landscape">
                       <Link href="/" className="button is-secondary w-button">
-                        View all
+                        Bekijk meer
                       </Link>
                     </div>
                   </div>
@@ -364,7 +364,7 @@ export default async function page({ params: { slug } }) {
                           </div>
                           <div className="blog-post-related_button-wrapper">
                             <div className="button is-link is-icon">
-                              <div>Read more</div>
+                              <div>Lees meer</div>
                               <div className="icon-embed-xxsmall w-embed">
                                 <svg
                                   width="16"
@@ -425,7 +425,7 @@ export default async function page({ params: { slug } }) {
                           </div>
                           <div className="blog-post-related_button-wrapper">
                             <div className="button is-link is-icon">
-                              <div>Read more</div>
+                              <div>Lees meer</div>
                               <div className="icon-embed-xxsmall w-embed">
                                 <svg
                                   width="16"
@@ -486,7 +486,7 @@ export default async function page({ params: { slug } }) {
                           </div>
                           <div className="blog-post-related_button-wrapper">
                             <div className="button is-link is-icon">
-                              <div>Read more</div>
+                              <div>Lees meer</div>
                               <div className="icon-embed-xxsmall w-embed">
                                 <svg
                                   width="16"
